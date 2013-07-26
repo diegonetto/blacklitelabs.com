@@ -1,11 +1,11 @@
 {
-  "name": "blacklitlabs.com",
+  "name": "blacklitelabs.com",
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "forever -a -l blacklitlabs.com.log -o /home/ubuntu/.forever/blacklitlabs.com/out.log -e /home/ubuntu/.forever/blacklitlabs.com/err.log start blacklitlabs.com.js",
-    "stop": "forever stop blacklitlabs.com.js",
-    "test": "node blacklitlabs.com"
+    "start": "forever -a -l blacklitelabs.com.log -o /home/ubuntu/.forever/blacklitelabs.com/out.log -e /home/ubuntu/.forever/blacklitelabs.com/err.log start blacklitelabs.com.js",
+    "stop": "forever stop blacklitelabs.com.js",
+    "test": "node blacklitelabs.com"
   },
   "dependencies": {
     "express": "3.0.0rc1",
